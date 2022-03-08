@@ -1,0 +1,35 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #284454;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn {
+    background: #f04c54;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #022968;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
